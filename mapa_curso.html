@@ -6,6 +6,7 @@
     <!-- Make sure you put this AFTER Leaflet's CSS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="rails.geojson"></script>
     <style>
         #map {
             height: 700px;
@@ -13,6 +14,7 @@
             border: solid 1px black;
         }
     </style>
+
 </head>
 
 <body>
@@ -25,14 +27,24 @@
         }).addTo(map);
 
         //adicionando um marcador:
-        var marker = L.marker([-20.1438, -44.1301], {title: 'Janeiro 25,2019 Desastre de Brumadinho'});
-        
+        var marker = L.marker([-20.1438, -44.1301], { title: 'Janeiro 25,2019 Desastre de Brumadinho' });
+
         //adicionando uma chamada no pop-up qdo clica no mapa
         marker.bindPopup("Janeiro 25,2019 Desastre de Brumadinho").openPopup();
-        
+
         marker.addTo(map);
 
+        //adiciona uma linha tracejada trilha na rota
+        var thetrail = L.geoJson(trail, {
+            color: '#800000',
+            weight: 3,
+            dashArray: '12 8 12',
+        });
 
+        //adiciona um rótulo
+        thetrail.bindTooltip('Trilha de Brumadinho').openTooltip;
+
+        thetrail.addTo(map);
 
 
     </script>

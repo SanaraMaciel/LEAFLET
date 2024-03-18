@@ -1,4 +1,4 @@
-        <h1 align="center"> Estudo sobre a biblioteca open-source de JavaScript para mapas interativos  </h1>
+<h1 align="center"> Estudo sobre a biblioteca open-source de JavaScript para mapas interativos</h1>
 
 <p align="center">
 Leaflet é a principal biblioteca JavaScript de código aberto para mapas interativos compatíveis com dispositivos móveis. Pesando cerca de 42 KB de JS , 

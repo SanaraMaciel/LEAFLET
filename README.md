@@ -7,5 +7,5 @@ O Leaflet foi projetado com simplicidade , desempenho e usabilidade em mente. El
 possui uma API bonita, fácil de usar e bem documentada e um  código-fonte simples e legível com o qual é uma alegria contribuir. </p>
 
 
-Documentação oficial: https://leafletjs.com/index.html
-Tutorial da internet (versão obsoleta): https://www.youtube.com/watch?v=nWG45QWU5M0&list=PLn7SZp3ghH9HhKh0s7CpN7Umulqd2IXv0&index=7
+* Documentação oficial: https://leafletjs.com/index.html
+* Tutorial da internet (versão obsoleta): https://www.youtube.com/watch?v=nWG45QWU5M0&list=PLn7SZp3ghH9HhKh0s7CpN7Umulqd2IXv0&index=7
